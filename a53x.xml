@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/samsung/a53x" name="android_device_samsung_a53x" remote="linusemrch2618" revision="lineage-20.0"/>
+    <project path="vendor/samsung/a53x" name="proprietary_vendor_samsung_a53x" remote="s5e8825" revision="lineage-20.0"/>
+    <project path="kernel/samsung/a53x" name="android_kernel_samsung_universal8825" remote="s5e8825" revision="A536EXXS5CWDA"/>
+</manifest>
