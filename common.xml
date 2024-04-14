@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="lineage"
+            fetch="https://github.com/LineageOS"
+            revision="refs/heads/lineage-20" />
+
+    <remote name="s5e8825"
+            fetch="https://github.com/s5e8825" 
+            revision="refs/heads/lineage-20.0" />
+
+      <remote name="linusemrch2618"
+            fetch="https://github.com/linusemrch2618" 
+            revision="refs/heads/lineage-20.0" />
+
+    <project path="device/samsung/universal8825-common" name="android_device_samsung_universal8825-common" remote="s5e8825" />
+    <project path="vendor/samsung/universal8825-common" name="proprietary_vendor_samsung_universal8825-common" remote="s5e8825"/>
+
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage"/>
+    <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage"/>
+    <project path="hardware/samsung_slsi/scsc_wfibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage" />
+    <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage" />
+</manifest>
