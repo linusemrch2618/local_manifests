@@ -2,6 +2,4 @@
 <manifest>
     <project path="device/samsung/essi" name="linusemrch2618/android_device_samsung_essi" remote="github" revision="lineage-21" />
     <project path="device/vendor/essi" name="linusemrch2618/android_vendor_samsung_essi" remote="github" revision="lineage-21" />
-
-    <project path="kernel/samsung/essi" name="linusemrch2618/android_kernel_samsung_a53x" remote="github" revision="main"/>
 </manifest>
